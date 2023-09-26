@@ -1,0 +1,53 @@
+body {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  
+}
+
+.letter {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  box-shadow: 4px 4px 20px;
+  border-radius: 0.3em;
+  
+}
+
+.receiver {
+  position: absolute;
+  font-size: 20px;
+  margin-left: 0em;
+  margin-top: 7em;
+  min-width: 6em;
+  font-family: sans-serif;
+}
+
+.sender {
+  position: absolute;
+  font-size: px;
+  margin-right: 25em;
+  margin-bottom: 16em;
+  min-width: 8em;
+  font-family: sans-serif;
+  
+}
+
+.stamp {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  margin-top: 2em;
+  margin-bottom: 20em;
+  margin-left: 30em;
+}
+
+li{
+  list-style: none;
+  border-bottom: 1px solid black;
+  margin: 0;
+}
